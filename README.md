@@ -1,0 +1,1 @@
+# narna-double-synonyms
