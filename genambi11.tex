@@ -134,7 +134,7 @@ RNA-dependent RNA polymerase
 are found to have a genome for which there is an open reading frame (that is, a reading frame without
 stop codons) on the strand which is complementary to that which codes the gene for the RdRp.
 This reverse open reading frame (rORF) has codon boundaries aligned with the forward reading
-frame. Because the genome can be read in either direction, we say that these narnaviruses
+frame. Because the genome can be translated in either direction, we say that these narnaviruses
 are \emph{ambigrammatic}. The significance of an ambigrammatic genome is an open problem.
 In this paper we discuss how polymorphisms of sampled sequences can distinguish
 between competing hypotheses on the function and nature of ambigrammatic viral genomes.
@@ -145,7 +145,7 @@ Our discussion is based upon two rules about the genetic code and its relation t
 sequences. Both of these \emph{ambigram rules} are concerned with the availability of synonyms within
 the genetic code, which allow coding of the same amino acid with a different codon.
 The first rule states that for any sequence of amino acids coded by the forward strand,
-it is possible to use synonym substitutions which result from single-base mutations in order to remove
+it is possible to use individual synonymous substitutions to remove
 all stop codons on the complementary strand \citep[this result was discussed already in][]{DeR+19}.
 The second ambigram rule, described below, states that the genetic code contains double
 synonyms that allow polymorphisms, accessible by single-base mutations, even when the
@@ -172,8 +172,8 @@ not code for a functional protein.
 
 After describing the genetic ambigram rules, we discuss how the existence of double synonyms
 can be used to assess whether the open reading frame on the complementary chain codes for
-functional protein. It is well known that, because RdRp is a highly-conserved gene, synonymous
-mutations occur more frequently than non-synonymous ones. Some of these synonymous
+functional protein. It is well known that, because RdRp is a highly-conserved gene, where over long periods of evolution synonymous
+mutations persist much longer than non-synonymous ones. Some of these synonymous
 mutations have the potential to be synonymous in the complementary strand. If the complementary
 strand also codes for a functional protein, we expect that doubly synonymous mutations will be
 favoured. In fact, there would be mutational \lq hotspots' corresponding to the potential
@@ -183,7 +183,7 @@ frequencies at loci which have double synonyms. We used these tests to analyse s
 two different ambigrammatic narnaviruses: $46$ RdRp segments of \emph{Culex narnavirus 1} and
 $10$ RdRp segments of \emph{Zhejiang mosquito virus 3}, abbreviated to CNV and ZMV respectively.
 We find that neither of our tests supports the hypothesis
-that the translated sequence of the complementary strand sequence
+that the translated sequence of the complementary strand of RdRp
 is under purifying selection. We also applied these tests to the second segment,
 termed \emph{Robin}, which is found to be closely associated with this
 ambigrammatic narnavirus infection in mosquitos \citep{Bat+20,Ret+20}. We also found that the
@@ -240,12 +240,12 @@ This result is demonstrated by the following argument, as discussed in \cite{DeR
 and taking the pairing complement, the stop codons UAA, UAG, UGA in the standard genetic code become, respectively,
 UUA, CUA, UCA, for which the amino acids are Leu, Leu, Ser. It is only instances of leucine and
 serine in the forward sequence that can result in stop codons in the reverse read.
-The synonyms of Leu are  CU*,  UUA, UUG (where * means any base).
-The synonyms of Ser are UC*, AGU, AGC. The undesirable Leu codon UUA can be transformed
+The synonyms of Leu are  CUN,  UUA, UUG (where N means any base).
+The synonyms of Ser are UCN, AGU, AGC. The undesirable Leu codon UUA can be transformed
 to UUG by a single substitution. Similarly, the Leu codon CUA can be transformed to
 CUU, CUG or CUC by single substitutions. And the Ser codon UCA is transformed to UCU, UCG or UCC
 by single substitutions. We conclude that every stop codon on the reverse reading frame can be removed
-by a synonymous, site single nucleotide mutation.
+by a synonymous, single site nucleotide mutation.
 
 Furthermore, it is found that complementary-strand stops cannot always be removed by synonymous substitutions
 in the other two read frames for the complementary strand \citep[each case requires a separate and somewhat
@@ -362,7 +362,7 @@ We analysed data from samples of two ambigrammatic narnaviruses,
 \emph{Culex narnavirus 1} (CNV, with $46$ genomes) and \emph{Zhejiang mosquito virus 3} (ZMV, with
 $10$ genomes). Both narnaviruses have an ambigrammatic RdRp coding gene, denoted CNV-RdRp and
 ZMV-RdRp respectively. The reverse open reading frame has its codons aligned with the forward frame.
-In both forward and reverse reading frames, and any stop codons are close to the end $3'$ end of the
+In both forward and reverse reading frames any stop codons are close to the end $3'$ end of the
 respective frame.
 
 The ambigrammatic feature is certainly a puzzle. There appear to be two classes
@@ -382,9 +382,9 @@ degradation, but without additional evidence this requires additional hypotheses
 
 Recently, additional evidence has emerged which may provide support for the second of these explanations.
 Specifically, the CNV infection has recently been shown to be facilitated by another ambigrammatic viral
-RNA segment, termed \emph{Robin} (\cite{Bat+20,Ret+20}). It was reported that this gene, CNV-Robin,
+RNA segment, termed \emph{Robin} (\cite{Bat+20,Ret+20}). It was reported that this segment, CNV-Robin,
 is ambigrammatic, with forward and reverse codons aligned, over very nearly
-the entire length (about $850{\rm nt}$). Again, any stop codons occur close to the $3'$ end.
+the entire length (about $850{\rm nt}$), where direction designation is determined by which amino acid sequence appears more conserved. Again, any stop codons occur close to the $3'$ end.
 Neither forward nor reverse directions of Robin are homologous with known sequences.
 
 Because ambigrammatic genes are rare, finding two of them in the same system is a strong
@@ -421,8 +421,8 @@ maximally aligned with each other, and that one strand, referred to as the
 We identify a \lq consensus' codon at each of the $N$ loci,
 and then enumerate the set of variant codons at each amino acid locus.
 If the consensus codon at a locus is one of the twelve
-double-synonym codons listed in table \ref{tab: 1}, we term this a \emph{double-synonym locus}.
-The number of double-synonym loci is $N_{\rm ds}$.
+double-synonym codons listed in table \ref{tab: 1}, we term this a \emph{doubly-synonymous locus}.
+The number of doubly-synonymous loci is $N_{\rm ds}$.
 
 There are two different approaches to testing whether
 double synonyms indicate that the complementary strand is coding:
@@ -430,7 +430,7 @@ double synonyms indicate that the complementary strand is coding:
 \subsection{Look for the existence of mutational \lq hotspots'}
 \label{sec: 4.1}
 
-We can look for evidence that the doubly-synonymous loci are experience more substitutions than other loci.
+We can look for evidence that the doubly-synonymous loci experience more substitutions than other loci.
 
 For each codon locus $k$, we can determine the number of elements of the variant set, $n(k)$,
 and also the fraction of codons $f(k)$ which differ from the consensus codon.
@@ -529,6 +529,9 @@ We clustered contigs from the nine datasets by similarity using CD-HIT\cite{fu_1
 Of the hundreds of clusters filtered this way only a handful also possessed sequences ambigrammatic across at least 90\% of their length and only two clusters were mostly comprised of ambigrammatic sequences, while the rest were clearly recognisable as mosquito contigs.
 Of the two clusters one was identifiable as the RdRp of Zhejiang mosquito virus 3, while we presume the other to be an unrecognisably distant orthologue of Culex narnavirus 1 Robin, on account of its co-occurrence with ZMV RdRp, ambigrammaticity, and length.
 
+ORF-wide dN/dS values were computed by assuming that every mutation in the alignment has occurred only once to be conservative. This was motivated by the presence of pairs of sites with four haplotypes between them ($4$G sites), an indication that recombination may be a potential issue with narnavirus sequences.
+Normalising the number of observed non-synonymous and synonymous mutations was done by assuming a transition/transversion ratio of $2$.
+
 
 \section{Results}
 \label{sec: 5}
@@ -545,8 +548,8 @@ nucleotide at each locus, and determined the set of variant nucleotides at each 
 We determined the total number of transition and transversion mutations which are observed,
 $N_{\rm trn}$ and $N_{\rm trv}$ respectively. We also determined the total number
 of mutations at each position in the codon, $(n_1,n_2,n_3)$.
-We estimated the mutation rate $r$ as the total number of nucleotide variants,
-divided by the product of the number of polymorphs and the number of nucleotides. We also
+We estimated the average number of variable sites $r$ as the total number of nucleotide variants,
+divided by the product of the number of sequences and alignment length. We also
 estimated the ratio $\alpha$ of the rate of selected transition mutations to the rate of transversions:
 %
 \begin{equation}
@@ -557,21 +560,21 @@ r\equiv \frac{n_1+n_2+n_3}{3NM}
 \end{equation}
 %
 (recall that there are twice as many transversions as transitions). We also determined a \lq normalised'
-triplet of mutation rates for each position within the codon: $(z_1:z_2:z_3)=3(n_1:n_2:n_3)/(n_1+n_2+n_3)$.
+triplet of variable sites for each position within the codon: $(z_1:z_2:z_3)=3(n_1:n_2:n_3)/(n_1+n_2+n_3)$.
 Our results on the nucleotide-level
 investigation of polymorphism are summarised in table \ref{tab: 5.1}.
 
 We then assigned a consensus codon at each codon locus, selecting the
 frame by the criterion of minimising the number of stop codons.
 For each of the $N$ codons, we determined the variant set of codons
-which were observed in each of the $M$ polymorphs. The total
+which were observed in each of the $M$ sequences. The total
 number of synonymous and non-synonymous single-nucleotide changes in the variant sets
 was $N_{\rm s}$ and $N_{\rm ns}$ respectively. The total number of mutations
 encountered in the variant sets where two or three nucleotides were changed was $N_{\rm mult}$.
 For each codon there are
 numbers of possible non-synonymous mutations which are transistions and transversions,
 $n_k^{({\rm trn})}$ and $n_k^{({\rm trv})}$, and numbers of synonymous mutations
-which transitions and transversions, $s_k^{({\rm trn})}$ and $s_k^{({\rm trn})}$
+which are transitions and transversions, $s_k^{({\rm trn})}$ and $s_k^{({\rm trn})}$
 (with $s_k^{({\rm trn})}+n_k^{({\rm trn})}+s_k^{({\rm trv})}+n_k^{({\rm trv})}=9$). Under the null
 hypothesis that the sequence is non-coding, the expected value of the ratio
 %
@@ -596,7 +599,7 @@ for both the forward and the complementary read directions (with codon boundarie
 for the complementary direction).
 
 The alignments are \emph{ambigrammatic}, in the sense that there are no stop codons in the
-interior of the sequence. None of the individual polymorphs had stop codons in the body of the
+interior of the sequence. None of the individual sequences had stop codons in the body of the
 sequence in either direction.
 
 Based upon these tables, we can make the following observations and deductions:
@@ -604,35 +607,35 @@ Based upon these tables, we can make the following observations and deductions:
 \begin{enumerate}
 
 \item{\bf Diversity}. We observe that both RdRp and Robin
-segments are comparable in their pairwise nucleotide diversity, for both CNV and ZMV.
+segments are comparable in their diversity, for both CNV and ZMV.
 As expected, RdRp sequences are highly conserved at the amino acid level.
 Robin, on the other hand, appears far more relaxed at the amino acid level and, consistent with this, diverged beyond recognition between CNV and ZMV.
 
-\item{\bf Relative mutation rate by codon position}. For the RdRp sequences, the mutation rates are much higher
-for the third nucleotide in each codon, as expected for a sequence that preserves the amino acid sequence
-(because most synonymous mutations involve the third nucleotide of a codon). In the case of the Robin sequences,
+\item{\bf Relative mutation rate by codon position}. For RdRp sequences, more mutations are observed
+at the third nucleotide in each codon, as expected for a sequence that preserves the amino acid sequence
+(because most synonymous mutations involve the third nucleotide of a codon). In the case of Robin sequences,
 the frequencies of mutation are much closer to being equal, to the extent that for CNV-Robin the null hypothesis
-that the rates are equal is not definitively rejected. However, the differences in the selected mutation rate at the different
-codon locations are sufficiently weighted towards the third base that we shall assume that the Robin sequence
+that the rates are equal is not definitively rejected. However, mutations at different
+codon sites are sufficiently weighted towards the third position that we shall assume that Robin
 does code for a functional protein.
 
-While the values of $(z_1:z_2:z_3)$ are very different for the RdRp and Robin genes, their values are
-comparable for the CNV and ZMV samples, which is an indication that  the selective pressures on both
+While the values of $(z_1:z_2:z_3)$ are very different for RdRp and Robin, their values are
+comparable for CNV and ZMV, which is an indication that the selective pressures on both
 viruses are the same.
 
 \item{\bf Rate of multiple nucleotide mutations}. The fraction of multiple nucleotide mutations is
-higher for the Robin sequences than it is for the RdRp sequences.
+higher for Robin sequences than it is for RdRp sequences.
 
 \item{\bf Transition to transversion ratio}. Three of the values of $\alpha$ were similar to each other, while the value
 for ZMV-RdRp was higher than the others. Because transitions occur at a higher intrinsic rate, a lower
 value of $\alpha$ indicates that observed mutations are biased in favour of the rarer transversions,
 which is an indication of unusual selective pressures. The fact that the values of $\alpha$ for the Robin segments are
-comparable to, or lower than, the values for the RdRp genes are a further indication that the Robin gene
+comparable to, or lower than, the values for RdRp are a further indication that Robin
 is under similar selective pressure too.
 
 \item{\bf Ratio of non-synonyms to synonyms}. For the RdRp segments the values of
 $R=N_{\rm ns}/N_{\rm s}$ are much smaller than the values $R_0$
-predicted (equation (\ref{eq: 5.3})) by the null hypothesis that the mutations are random. This indicates that the selective
+predicted (equation (\ref{eq: 5.3})) by the null hypothesis that mutations are random. This indicates that the selective
 pressure on RdRp acts to preserve the amino acid sequence. For Robin segments, the values of $R$
 are much larger, but still smaller than the prediction from the null hypothesis. This indicates that while
 points 1-4 above indicate that Robin is under some selective pressure, the amino acid sequence
@@ -641,8 +644,8 @@ This is consistent with the hypothesis that the selection acting on Robin is rel
 
 \end{enumerate}
 
-Figure \ref{fig: 2} illustrates the disposition of genetic diversity across the forward and reverse reading frames
-of all four ORFs. As expected, there is evidence that some regions accumulate mutations more readily than others.
+Figure \ref{fig: 2} illustrates the distribution of mutations across the forward and reverse reading frames
+of all four ORFs for both CNV and ZMV. As expected, there is evidence that some regions accumulate mutations more readily than others.
 The pattern is consistent with what would be expected from the statistical reductions in the tables.
 
 \begin{figure*}
@@ -699,7 +702,7 @@ Summary of results for codon-level mutations.
 \subsection{Complementary reading frame}
 \label{sec: 5.2}
 
-We determined the set of $N_{\rm d}$ doublu-synonymous codons in the consensus sequence, and
+We determined the set of $N_{\rm d}$ doubly-synonymous codons in the consensus sequence, and
 the subset of $N_{\rm a}$ of these which have variant codons.
 
 \begin{enumerate}
@@ -714,7 +717,7 @@ of $N_{\rm a}$ doubly-synonymous sites which were variable. We found (table \ref
 that many more of the observed mutations at these sites are only singly synonymous, when
 a doubly-synonymous mutation is possible, which is further evidence that the complementary
 strand is non-coding. The numbers of doubly-synonymous mutations
-were quite low, and so that it was not possible to make a reliable comparison of the
+were quite low, and so it was not possible to make a reliable comparison of the
 ratio $N_{\rm s}/N_{\rm d}$ with the null hypothesis.
 
 \item{\bf Ratio of non-synonyms to synonyms}.
@@ -730,7 +733,7 @@ $12$ of the $64$ codons allow for doubly-synonymous mutations, the $N_{\rm ns}/N
 ratio would be very high for the complementary strand if the forward sequence were to be exactly conserved.
 We computed this ratio, and found $11.2$ for CNV-RdRp, and similar values for the other sequences.
 This theoretical ratio is considerably higher than the measured value of $4.97$, because the
-forward sequence is not exactly conserved. For the Robin segments, the value of $R$ for the reverse
+forward sequence is not exactly conserved. For Robin segments, the value of $R$ for the reverse
 ORF is only slightly higher than the null hypothesis, because the amino acid sequence is only weakly
 conserved.
 
@@ -804,13 +807,13 @@ We have argued that doubly synonymous codons provide a key to understanding whet
 ambigrammatic viral RNA segments code for two functional proteins. If there were two
 coding genes, doubly synonymous mutations would be mutational hotspots,
 because they are unambiguously non-deleterious. We applied our analysis to recent
-observations of polymorphisms in two ambigrammatic narnaviruses: Culex 1
-and Zheijiang mosquito 3. There was no evidence that doubly synonymous
+observations of polymorphisms in two ambigrammatic narnaviruses: Culex narnavirus 1
+and Zhejiang mosquito virus 3. There was no evidence that doubly synonymous
 sites are mutational hotspots, or that there is a prevalence of mutations to other doubly-synonymous codons
 at these sites. Other, circumstantial, evidence favours the interpretation that the complementary strand is non-coding.
 Ambigrammatic sequences have been observed in other narnaviruses,
 but they are undoubtedly a rare phenomenon.
-If the rORF (reverse open reading frame) of both the RdRp and the Robin segment
+If the rORF (reverse open reading frame) of both RdRp and Robin segments
 had evolved to code for a functional protein, each RNA segment would code for two genes.
 Given that ambigrammatic sequences are rare \citep{DeR+19}, finding a system where two had evolved
 independently would be highly improbable. Moreover, because the ambigrams are full length,
@@ -839,14 +842,14 @@ for the viral RNA against degradation.
 
 The role of Robin is uncertain. Ribosome profiling suggests that most of the ribosomes attached to
 the viral RNA become stalled, creating a cover \cite{Cep20,Ret+20,Wil+21}. The ambigram property
-allows binding of ribosomes to both strands, hiding the viral RNA from defence and degradation mechanisms.
-It seems likely that Robin plays a role in this process, possibly by creating a protein which
+allows binding of ribosomes to both strands, hiding the viral RNA from host defence and degradation mechanisms.
+It is possible that Robin plays a role in this process, possibly by creating a protein which
 blocks ribosome detachment at $3'$ end. Without a better understanding of the narnavirus lifecycle in arthropods
-an alternative function of the Robin segment may be just about anything, like viral suppression of RNAi\cite{mie_14} or formation of syncytia or viral particles.
+alternative functions for the Robin protein may also be viral suppression of RNAi\cite{mie_14} or formation of syncytia or viral particles.
 
 It might be proposed that the ribosome \lq traffic jam' is a consequence of the structure of the
-RdRp itself, possibly due to formation of RNA hairpins. However, this would simply be a mechanism
-for making an inefficient RdRp. The proposed mechanism involving Robin making a blocking protein
+RdRp itself, possibly due to formation of RNA hairpins. However, these would have to trade off against RdRp function.
+The proposed mechanism involving Robin making a blocking protein
 has the advantage that the RdRp works efficiently when the viral RNA concentration is small.
 Later, after it has duplicated many copies of itself and of Robin, the Robin protein attaches
 to the viral RNA and creates stalled polysomes, protecting the viral RNA from degradation.
@@ -857,13 +860,14 @@ for an additional ambigrammatic gene, so far without success. In fact it is poss
 is the gene which disrupts \lq no-go-decay', and that it is the gene for blocking ribosome detachment
 which is still to be identified.
 
-Further studies of \lq ribosome profiling' of this system have that potential to reveal evidence
+Further studies of \lq ribosome profiling' of this system have the potential to reveal evidence
 of whether ribosomes accumulate on the viral RNA in this system.  A recent preprint \citep{Ret+20}
 presents evidence that inserting mutations in the RdRp sequence which are synonymous in the forward
-reading frame but non-synonymous in the reverse frame reduces the fitness of the virus. The mutations
+reading frame but introduce stop codons in the reverse frame reduces the fitness of the virus. The mutations
 were clustered close to the $3'$ end of the RdRp gene. These
 observations could be interpreted as indicating that the reverse reading frame codes for a functional
-protein. However, changing the RNA sequence may also interfere with the action of molecules which
+protein or that all ORFs in the cell may be translated in a \lq leaky' way.
+However, changing the RNA sequence may also interfere with the action of molecules which
 bind to the RdRp strand.
 
 
@@ -883,6 +887,7 @@ reviewed the manuscript before submission.
 
 We thank Hanna Retallack and Joe DeRisi for discussions of their experimental studies of narnaviruses
 and Amy Kistler for assistance with narnaviral genomes.
+We would like to thank Mang Shi and Edward C Holmes for sharing assembled contigs from Australian and Chinese mosquito metagenomic datasets.
 G.H. and D.Y. were supported by the Chan Zuckerberg Biohub;
 MW thanks the Chan Zuckerberg Biohub for its hospitality.
 
