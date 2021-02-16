@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: genambi_submit.aux
+The style file: abbrvnat.bst
+Database file #1: polyvirus.bib
+Warning--empty journal in Bat+20
+Warning--empty publisher in Hillman2013
+Warning--empty journal in Ret+20
+Warning--empty journal in Wil+21
+You've used 16 entries,
+            2773 wiz_defined-function locations,
+            723 strings with 8480 characters,
+and the built_in function-call counts, 9441 in all, are:
+= -- 807
+> -- 759
+< -- 5
++ -- 254
+- -- 238
+* -- 888
+:= -- 1530
+add.period$ -- 70
+call.type$ -- 16
+change.case$ -- 127
+chr.to.int$ -- 16
+cite$ -- 36
+duplicate$ -- 341
+empty$ -- 601
+format.name$ -- 256
+if$ -- 1906
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 16
+newline$ -- 109
+num.names$ -- 66
+pop$ -- 222
+preamble$ -- 1
+purify$ -- 111
+quote$ -- 0
+skip$ -- 282
+stack$ -- 0
+substring$ -- 256
+swap$ -- 29
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 176
+warning$ -- 4
+while$ -- 64
+width$ -- 0
+write$ -- 251
+(There were 4 warnings)
