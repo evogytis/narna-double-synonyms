@@ -1,0 +1,136 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barrell et~al.(1976)Barrell, Air, and Hutchison]{Bar+76}
+B.~G. Barrell, G.~M. Air, and C.~A. Hutchison.
+\newblock Overlapping genes in bacteriophage {phiX174}.
+\newblock \emph{Nature}, 264:\penalty0 34--41, 1976.
+\newblock \doi{10.1038/264034a0}.
+
+\bibitem[Batson et~al.(2020)Batson, Dudas, Haas-Stapleton, Kistler, Li, Logan,
+  Ratnasiri, and Retallack]{Bat+20}
+J.~Batson, G.~Dudas, E.~Haas-Stapleton, A.~L. Kistler, L.~M. Li, P.~Logan,
+  K.~Ratnasiri, and H.~Retallack.
+\newblock Single mosquito metatranscriptomics recovers mosquito species, blood
+  meal sources, and microbial cargo, including viral dark matter.
+\newblock {bioRxiv:} https://doi.org/10.1101/2020.02.10.942854, 2020.
+
+\bibitem[Cepelewicz(2020)]{Cep20}
+J.~Cepelewicz.
+\newblock New clues about `ambigram' viruses with strange reversible genes.
+\newblock \emph{Quanta Magazine}, 2020.
+\newblock URL
+  \url{https://www.quantamagazine.org/new-clues-about-ambigram-viruses-with-strange-\\reversible-genes-20200212/}.
+
+\bibitem[Chirico et~al.(2010)Chirico, Vianelli, and Belshaw]{Chi+10}
+N.~Chirico, A.~Vianelli, and R.~Belshaw.
+\newblock Why genes overlap in viruses.
+\newblock \emph{Proc Biol Sci.}, 277:\penalty0 1701, 2010.
+\newblock \doi{10.1098/rspb.2010.1052}.
+
+\bibitem[Cobi{\'a}n~G{\"u}emes et~al.(2016)Cobi{\'a}n~G{\"u}emes, Youle,
+  Cant{\'u}, Felts, Nulton, and Rohwer]{Cob+16}
+A.~G. Cobi{\'a}n~G{\"u}emes, M.~Youle, V.~A. Cant{\'u}, B.~Felts, J.~Nulton,
+  and F.~Rohwer.
+\newblock Viruses as winners in the game of life.
+\newblock \emph{Annual Review of Virology}, 3\penalty0 (1):\penalty0 197--214,
+  2016.
+\newblock \doi{10.1146/annurev-virology-100114-054952}.
+\newblock URL \url{https://doi.org/10.1146/annurev-virology-100114-054952}.
+
+\bibitem[DeRisi et~al.(2019)DeRisi, Huber, Kistler, Retallack, Wilkinson, and
+  Yllanes]{DeR+19}
+J.~DeRisi, G.~Huber, A.~Kistler, H.~Retallack, M.~Wilkinson, and D.~Yllanes.
+\newblock An exploration of ambigrammatic sequences in narnaviruses.
+\newblock \emph{Sci. Rep.}, 9:\penalty0 17982, 2019.
+\newblock \doi{10.1038/s41598-019-54181-3}.
+\newblock URL \url{https://doi.org/10.1038/s41598-019-54181-3}.
+
+\bibitem[Dinan et~al.(2020)Dinan, Lukhovitskaya, Olendraite, and Firth]{Din+20}
+A.~M. Dinan, N.~I. Lukhovitskaya, I.~Olendraite, and A.~E. Firth.
+\newblock A case for a negative-strand coding sequence in a group of
+  positive-sense rna viruses.
+\newblock \emph{Virus Evolution}, 6:\penalty0 veaa007, 2020.
+\newblock \doi{https://doi.org/10.1093/ve/veaa007}.
+
+\bibitem[Fu et~al.(2012)Fu, Niu, Zhu, Wu, and Li]{fu_12}
+L.~Fu, B.~Niu, Z.~Zhu, S.~Wu, and W.~Li.
+\newblock {CD}-{HIT}: accelerated for clustering the next-generation sequencing
+  data.
+\newblock \emph{Bioinformatics}, 28\penalty0 (23):\penalty0 3150--3152, Dec.
+  2012.
+\newblock ISSN 1367-4811.
+\newblock \doi{10.1093/bioinformatics/bts565}.
+
+\bibitem[Hillman and Cai(2013)]{Hillman2013}
+B.~I. Hillman and G.~Cai.
+\newblock The family {\textit{narnaviridae}}: simplest of {RNA} viruses.
+\newblock In S.~A. Ghabrial, editor, \emph{Mycoviruses}, volume~86 of
+  \emph{Advances in Virus Research}, pages 149--176. 2013.
+\newblock \doi{10.1016/B978-0-12-394315-6.00006-4}.
+
+\bibitem[Kimura(1980)]{Kim80}
+M.~Kimura.
+\newblock A simple method for estimating evolutionary rates of base
+  substitutions through comparative studies of nucleotide sequences.
+\newblock \emph{J. Molecular Evolution}, 16:\penalty0 111--20, 1980.
+
+\bibitem[Mierlo et~al.(2014)Mierlo, Overheul, Obadia, Cleef, Webster, Saleh,
+  Obbard, and Rij]{mie_14}
+J.~T.~v. Mierlo, G.~J. Overheul, B.~Obadia, K.~W. R.~v. Cleef, C.~L. Webster,
+  M.-C. Saleh, D.~J. Obbard, and R.~P.~v. Rij.
+\newblock Novel {Drosophila} {Viruses} {Encode} {Host}-{Specific} {Suppressors}
+  of {RNAi}.
+\newblock \emph{PLOS Pathogens}, 10\penalty0 (7):\penalty0 e1004256, July 2014.
+\newblock ISSN 1553-7374.
+\newblock \doi{10.1371/journal.ppat.1004256}.
+\newblock URL
+  \url{https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1004256}.
+
+\bibitem[Nelson et~al.(2020)Nelson, Ardern, and Wei]{Nel+20}
+C.~W. Nelson, Z.~Ardern, and X.~Wei.
+\newblock Olgenie: Estimating natural selection to predict functional
+  overlapping genes.
+\newblock \emph{Molecular Biology and Evolution}, 37:\penalty0 2440--2449,
+  2020.
+\newblock \doi{https://doi.org/10.1093/molbev/msaa087}.
+
+\bibitem[Retallack et~al.(2020)Retallack, Popova, Laurie, Sunshine, and
+  DeRisi]{Ret+20}
+H.~Retallack, K.~D. Popova, M.~T. Laurie, S.~Sunshine, and J.~L. DeRisi.
+\newblock Persistence of ambigrammatic narnaviruses requires translation of the
+  reverse open reading frame.
+\newblock bioRxiv preprint, doi: http://10.1101/2020.12.18.423567 2020.
+
+\bibitem[Shi et~al.(2016)Shi, Lin, Tian, Chen, Chen, Li, Qin, Li, Cao, Eden,
+  Buchmann, Wang, Xu, Holmes, and Zhang]{shi_16}
+M.~Shi, X.-D. Lin, J.-H. Tian, L.-J. Chen, X.~Chen, C.-X. Li, X.-C. Qin, J.~Li,
+  J.-P. Cao, J.-S. Eden, J.~Buchmann, W.~Wang, J.~Xu, E.~C. Holmes, and Y.-Z.
+  Zhang.
+\newblock Redefining the invertebrate {RNA} virosphere.
+\newblock \emph{Nature}, Nov. 2016.
+\newblock ISSN 1476-4687.
+\newblock \doi{10.1038/nature20167}.
+
+\bibitem[Shi et~al.(2017)Shi, Neville, Nicholson, Eden, Imrie, and
+  Holmes]{shi_17}
+M.~Shi, P.~Neville, J.~Nicholson, J.-S. Eden, A.~Imrie, and E.~C. Holmes.
+\newblock High-{Resolution} {Metatranscriptomics} {Reveals} the {Ecological}
+  {Dynamics} of {Mosquito}-{Associated} {RNA} {Viruses} in {Western}
+  {Australia}.
+\newblock \emph{Journal of Virology}, 91\penalty0 (17), Sept. 2017.
+\newblock ISSN 1098-5514.
+\newblock \doi{10.1128/JVI.00680-17}.
+
+\bibitem[Wilkinson et~al.(2021)Wilkinson, Yllanes, and Huber]{Wil+21}
+M.~Wilkinson, D.~Yllanes, and G.~Huber.
+\newblock Polysomally protected viruses.
+\newblock 2021.
+\newblock URL \url{https://arxiv.org/abs/2102.00316}.
+\newblock arXiv:2102.00316.
+
+\end{thebibliography}
